@@ -11,6 +11,17 @@
         }
         img{
             width: 20%;
+            margin: 15px;
+        }
+        h1 {
+            margin-bottom: 5px;
+        }
+        form {
+            margin: 15px;
+            padding: 25px;
+            background: #fff;
+            text-align: center;
+            border-radius: 5px;
         }
         body{
             animation: bgbody 5s infinite;
@@ -32,21 +43,34 @@
     <title>Practica Git con Github</title>
 </head>
 <body>
-    <img src="../../images/icons/logoCasita.png" alt="logo casa del futuro">
     <!-- Pasos para modificar el documento con algun contenido-->
 
     <!-- Algunas etiquetas para usar son -->
     <!-- Etiqueta de encabezado -->
         <!-- <h1>Puede ir desde h1 hasta h6</h1> -->
-
+        <h1>Hola Mundo</h1>
+        <h2>Práctica Git con Github</h2>
     <!-- Etiqueta de texto -->
         <!-- <p>Esta es la sintaxis para escribir un parrafo</p> -->
+        <p>Probando hacer conflictos! 🫶</p>
 
     <!-- Etiqueta de imagen -->
         <!-- <img src="aquí debes colocar la ruta hacia la imagen" alt="aquí una descripción breve de la imagen"> -->
+        <img src="https://cdn-icons-png.flaticon.com/512/189/189000.png?w=740&t=st=1688755628~exp=1688756228~hmac=3b91b47248fbe8abe49b72e694d83ceec364a007b2f13ca2d739b1e7b86f8bad" alt="imagen">
 
     <!-- DEBAJO DE ESTE COMENTARIO DEBERIAS AGREGAR ALGUNA DE LAS ETIQUETAS HTML -->
-
+    <form id="form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+    
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+    
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" required></textarea><br><br>
+    
+        <input type="submit" value="Enviar">
+      </form>
 
 
 
