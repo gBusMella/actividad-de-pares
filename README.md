@@ -1,4 +1,3 @@
-
 # Taller de Git con GitHub en Casa del Futuro
 ¡Bienvenido al taller de Git con GitHub en Casa del Futuro! En este taller, aprenderás cómo crear tu primer repositorio y subir tus cambios utilizando la consola de Bash y los comandos de Git. ¡Empecemos!
 
